@@ -1,304 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#dc2626" />
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="John Miguel Burns Taduran - Passionate IT Student & Web Developer specializing in React, JavaScript, and modern web technologies. Available for freelance projects and full-time opportunities." />
+    <meta name="keywords" content="John Miguel Taduran, Web Developer, IT Student, React Developer, JavaScript, HTML, CSS, Frontend Developer, Philippines" />
+    <meta name="author" content="John Miguel Burns Taduran" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="John Miguel Burns Taduran - IT Student & Web Developer" />
+    <meta property="og:description" content="Passionate IT Student & Web Developer specializing in React, JavaScript, and modern web technologies." />
+    <meta property="og:image" content="%PUBLIC_URL%/miggytaduran.jpg" />
+    <meta property="og:url" content="https://johnmiguel-taduran.com" />
+    <meta property="og:type" content="website" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="John Miguel Burns Taduran - IT Student & Web Developer" />
+    <meta name="twitter:description" content="Passionate IT Student & Web Developer specializing in React, JavaScript, and modern web technologies." />
+    <meta name="twitter:image" content="%PUBLIC_URL%/miggytaduran.jpg" />
+    
+    <!-- Performance Optimization -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
     <title>John Miguel Burns Taduran - IT Student & Web Developer</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-</head>
-<body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <span>JMT</span>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1>An Expert <span class="highlight">IT Student</span> and <span class="highlight">Web Developer</span></h1>
-                    <p class="hero-subtitle">Crafting innovative digital solutions with passion for technology and design. Specializing in modern web development and user experience design.</p>
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn-primary">Download CV</a>
-                        <a href="#about" class="btn-secondary">Learn More</a>
-                    </div>
-                    <div class="hero-stats">
-                        <div class="stat-item">
-                            <span class="stat-number">15+</span>
-                            <span class="stat-label">Projects</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">100%</span>
-                            <span class="stat-label">Client Satisfaction</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <div class="image-container">
-                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="John Miguel Taduran" class="profile-img">
-                        <div class="image-bg"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="hero-bg-elements">
-            <div class="bg-circle"></div>
-            <div class="bg-dots"></div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="John Miguel Taduran">
-                </div>
-                <div class="about-text">
-                    <h2>Why Hire Me for Your Next Project?</h2>
-                    <p>As a passionate IT student and web developer, I bring fresh perspectives and cutting-edge skills to every project. My expertise spans modern web technologies, responsive design, and user experience optimization. I'm committed to delivering high-quality solutions that not only meet your requirements but exceed your expectations.</p>
-                    <p>With a strong foundation in both front-end and back-end development, I can handle complete web solutions from concept to deployment. My attention to detail and commitment to best practices ensure that your project will be both functional and maintainable.</p>
-                    <div class="about-info">
-                        <div class="info-item">
-                            <i class="fas fa-phone"></i>
-                            <span>09995584106</span>
-                        </div>
-                        <div class="info-item">
-                            <i class="fas fa-envelope"></i>
-                            <span>johnmigueltaduran09@gmail.com</span>
-                        </div>
-                    </div>
-                    <a href="#contact" class="btn-primary">Get In Touch</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-item">
-                    <div class="skill-circle" data-percentage="89">
-                        <svg>
-                            <circle cx="50" cy="50" r="45"></circle>
-                            <circle cx="50" cy="50" r="45" class="progress"></circle>
-                        </svg>
-                        <div class="skill-percentage">89%</div>
-                    </div>
-                    <h3>HTML/CSS</h3>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-circle" data-percentage="79">
-                        <svg>
-                            <circle cx="50" cy="50" r="45"></circle>
-                            <circle cx="50" cy="50" r="45" class="progress"></circle>
-                        </svg>
-                        <div class="skill-percentage">79%</div>
-                    </div>
-                    <h3>JavaScript</h3>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-circle" data-percentage="67">
-                        <svg>
-                            <circle cx="50" cy="50" r="45"></circle>
-                            <circle cx="50" cy="50" r="45" class="progress"></circle>
-                        </svg>
-                        <div class="skill-percentage">67%</div>
-                    </div>
-                    <h3>React</h3>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-circle" data-percentage="85">
-                        <svg>
-                            <circle cx="50" cy="50" r="45"></circle>
-                            <circle cx="50" cy="50" r="45" class="progress"></circle>
-                        </svg>
-                        <div class="skill-percentage">85%</div>
-                    </div>
-                    <h3>UI/UX Design</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="container">
-            <h2 class="section-title">Services and Solutions</h2>
-            <div class="services-grid">
-                <div class="service-item">
-                    <div class="service-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3>Web Development</h3>
-                    <p>Creating responsive, modern websites using the latest technologies and best practices for optimal performance.</p>
-                </div>
-                <div class="service-item">
-                    <div class="service-icon">
-                        <i class="fas fa-paint-brush"></i>
-                    </div>
-                    <h3>UI/UX Design</h3>
-                    <p>Designing intuitive and visually appealing user interfaces that provide exceptional user experiences.</p>
-                </div>
-                <div class="service-item">
-                    <div class="service-icon">
-                        <i class="fas fa-mobile-alt"></i>
-                    </div>
-                    <h3>Mobile Development</h3>
-                    <p>Building cross-platform mobile applications with modern frameworks for iOS and Android devices.</p>
-                </div>
-                <div class="service-item">
-                    <div class="service-icon">
-                        <i class="fas fa-search"></i>
-                    </div>
-                    <h3>SEO Optimization</h3>
-                    <p>Optimizing websites for search engines to improve visibility and drive organic traffic growth.</p>
-                </div>
-                <div class="service-item">
-                    <div class="service-icon">
-                        <i class="fas fa-server"></i>
-                    </div>
-                    <h3>Backend Development</h3>
-                    <p>Developing robust server-side applications and APIs for scalable web solutions.</p>
-                </div>
-                <div class="service-item">
-                    <div class="service-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3>Digital Marketing</h3>
-                    <p>Creating effective digital marketing strategies to boost online presence and engagement.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Stats Section -->
-    <section class="stats">
-        <div class="container">
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="stat-icon">
-                        <i class="fas fa-project-diagram"></i>
-                    </div>
-                    <h3 class="stat-number" data-count="15">0</h3>
-                    <p>Projects Completed</p>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-icon">
-                        <i class="fas fa-smile"></i>
-                    </div>
-                    <h3 class="stat-number" data-count="12">0</h3>
-                    <p>Happy Clients</p>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-icon">
-                        <i class="fas fa-clock"></i>
-                    </div>
-                    <h3 class="stat-number" data-count="500">0</h3>
-                    <p>Hours Coded</p>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-icon">
-                        <i class="fas fa-award"></i>
-                    </div>
-                    <h3 class="stat-number" data-count="3">0</h3>
-                    <p>Certifications</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h4>Phone</h4>
-                            <p>09995584106</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h4>Email</h4>
-                            <p>johnmigueltaduran09@gmail.com</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h4>Alternative Email</h4>
-                            <p>johnmiguel.taduran@icloud.com</p>
-                        </div>
-                    </div>
-                </div>
-                <form class="contact-form">
-                    <div class="form-group">
-                        <input type="text" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" placeholder="Subject" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea placeholder="Your Message" rows="6" required></textarea>
-                    </div>
-                    <button type="submit" class="btn-primary">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-text">
-                    <p>&copy; 2025 John Miguel Burns Taduran. All rights reserved.</p>
-                </div>
-                <div class="footer-social">
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-github"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
 </html>
